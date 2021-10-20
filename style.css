@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 html, body {
  height: 100%;
 }
@@ -5,13 +9,52 @@ html, body {
 body {
     display: grid;
     place-items: center;
+
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background: url(images/background.svg);
+    width: 375px;
+    height: 812px;
+}
+
+.container {
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.avatar {
+    
+}
+
+.selo {
+    align-items: flex-start;
+}
+
+.fotoPerfil {
+    
 }
 
 h1 {
     font-size: 1.5rem;
+    text-align: center;
 }
 
 a {
     color: lightgray;
     text-decoration: none;
+    
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.redes img {
+    margin: 0 5px;
 }
