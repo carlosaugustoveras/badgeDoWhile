@@ -1,9 +1,9 @@
 const LinksSocialMedia = {
   github: 'carlosaugustoveras',
   youtube: 'UC_4QX3J8drSYRfMAq2vq_NQ',
-  facebook: 'carlosaugustoveras',
+  facebook: 'augusto.veras.14224',
   instagram: 'augusto_veras_',
-  twitter: 'carlos_veras'
+  twitter: 'carlos_veras_'
 }
 
 function changeSocialMediaLinks() {
