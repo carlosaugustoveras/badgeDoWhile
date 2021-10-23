@@ -1,4 +1,44 @@
+@media (min-width: 640px){
+    /* Tablet version style */
+    main {
+        background: url(images/background_desktop.svg) no-repeat center/cover ;
+        width: 768px;
+        min-height: 600px;
+        height: 1024px;
+    }
 
+    .container {
+        max-width: 358px;
+        height: 540px;
+            
+        margin-top: 290px;
+    }
 
+}
+    
+@media (min-width: 768px){
+    
 
+    
+}
+    
+@media (min-width: 1024px){
+    /* Desktop version style */
+    main {
+        background: url(images/background_desktop.svg) no-repeat center/cover ;
+        width: 100vw;
+        min-height: 900px;
+        height: 100vh;
+    }
 
+    .container {
+        max-width: 358px;
+        height: 540px;
+
+        margin-top: 235px;
+    }
+}
+   
+@media (min-width: 1200px){
+    
+}

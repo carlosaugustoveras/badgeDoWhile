@@ -84,33 +84,3 @@ ul {
 
     padding-right: 40px; /*padding to justify the list, it is only necessary if the Youtube icon is hidden*/
 }
-
-@media (min-width: 720px) {
-    /* Tablet version style */
-    main {
-        background: url(images/background_desktop.svg) no-repeat center/cover ;
-        width: 100vw;
-        min-height: 900px;
-        height: 100vh;
-    }
-
-    .container {
-        width: 358px;
-        height: 540px;
-    }
-}
-
-@media (min-width: 960px) {
-    /* Desktop version style */
-    main {
-        background: url(images/background_desktop.svg) no-repeat center/cover ;
-        width: 100vw;
-        min-height: 720px;
-        height: 100vh;
-    }
-
-    .container {
-        width: 358px;
-        height: 540px;
-    }
-}
