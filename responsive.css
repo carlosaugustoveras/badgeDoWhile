@@ -1,5 +1,4 @@
 @media (min-width: 640px){
-    /* Tablet version style */
     main {
         background: url(images/background_desktop.svg) no-repeat center/cover ;
         width: 768px;
@@ -23,7 +22,6 @@
 }
     
 @media (min-width: 1024px){
-    /* Desktop version style */
     main {
         background: url(images/background_desktop.svg) no-repeat center/cover ;
         width: 100vw;
